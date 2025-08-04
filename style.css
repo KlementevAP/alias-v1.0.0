@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0; padding: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+textarea, input[type=number] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+#wordBox {
+  margin: 20px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  min-height: 80px;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#timer, #currentTeam {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+}
+#scoreBoard {
+  margin-top: 20px;
+  font-weight: bold;
+}
+#categoriesContainer {
+  margin-top: 10px;
+}
+.categoryCheckbox {
+  margin-right: 10px;
+}
